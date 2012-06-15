@@ -1,0 +1,13 @@
+Index: TileCache/Layer.py
+===================================================================
+--- TileCache/Layer.py	(revision 397)
++++ TileCache/Layer.py	(working copy)
+@@ -99,7 +99,7 @@
+                   "cache", "debug", "description", 
+                   "watermarkimage", "watermarkopacity",
+                   "extent_type", "tms_type", "units", "mime_type",
+-                  "spherical_mercator", "metadata")
++                  "spherical_mercator", "metadata", "paletted")
+     
+     config_properties = [
+       {'name':'spherical_mercator', 'description':'Layer is in spherical mercator. (Overrides bbox, maxresolution, SRS, Units)', 'type': 'boolean'},
